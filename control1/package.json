@@ -1,0 +1,28 @@
+{
+  "name": "votesblock",
+  "version": "1.0.0",
+  "description": "блок голосования",
+  "main": "App.js",
+  "scripts": {
+    "build": ".\\node_modules\\.bin\\webpack",
+    "livebuild": "webpack-dev-server --progress --colors"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.28.0",
+    "babel-core": "^5.8.38",
+    "babel-loader": "^8.4.1",
+    "babel-preset-env": "^0.0.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "css-loader": "^7.1.2",
+    "webpack": "^5.101.0",
+    "webpack-dev-server": "^5.2.2"
+  },
+  "dependencies": {
+    "prop-types": "^15.8.1",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0"
+  }
+}
